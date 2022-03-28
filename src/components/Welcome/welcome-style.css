@@ -386,10 +386,9 @@
      }
    
      .yellowBG {
-       /* justify-content: left; */
-       /* transform: translate(-160px, 30px);
-       width: 60%; */
        
+       transform: translate(-130px, -10px);
+
      }
  
  }
