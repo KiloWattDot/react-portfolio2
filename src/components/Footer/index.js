@@ -43,7 +43,7 @@ function Footer() {
             // Then we check to see if the password is not valid. If so, we set an error message regarding the password.
         }
 
-        alert(`Thank you for contacing ${contactName}. I will get back to you shortly...`)
+        alert(`Thank you ${contactName} for contacting  me. I will get back to you shortly...`)
 
 
         localStorage.setItem('name', contactName);

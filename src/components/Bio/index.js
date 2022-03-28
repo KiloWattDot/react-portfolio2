@@ -3,7 +3,11 @@ import './bio-style.css';
 import gradPic from './images/mewithbox.png'
 
 
-const bioText = ' My name is Dorothy Gilchrist and I am from Atlanta, Georgia. I have a bachelors degree in Electrical & Electronics Engineering from the University of Georgia. Go Bulldogs! I am one the first black females to graduate from UGA with an EEE degree. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore  magna aliqua. '
+
+
+const bioText = ' My name is Dorothy Gilchrist and I was born/raised in Atlanta, Georgia which is where I still currently reside. I have a bachelors degree in Electrical & Electronics Engineering from the University of Georgia so Go Bulldogs! I am currenlt seeking a role as or adjacent to web development. I have experience with coding langueges and web development applications/frameworks like: javascript, react, nodejs, mongo, mongoose, etc.';
+
+
 
 function Bio() {
     return (

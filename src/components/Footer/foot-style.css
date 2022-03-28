@@ -118,8 +118,10 @@ h3 {
     font-family: 'Poppins', sans-serif !important;
 }
 
+
 #info {
     color: #ffefb7 !important;
+   
 }
 
 
@@ -138,7 +140,17 @@ h3 {
     width: 8%;
 }
 
+@media all and (max-width: 900px) {
+    
+    #title {
+        transform: translate(150px, -0px);
+       
+    }
+
+    
+}
 @media all and (max-width: 610px) {
+    
     .col-xs-6 {
         flex: 1;
         transform: translate(25px, -96px);
@@ -157,6 +169,10 @@ h3 {
 }
 
 @media all and (max-width: 480px) {
+    #title {
+        transform: translate(100px, -0px);
+       
+    }
 
     .col-xs-6 {
         transform: translate(7px, -96px);
@@ -167,7 +183,7 @@ h3 {
     }
     
     p {
-        font-size: calc(.4rem + .6vw);
+        font-size: calc(1rem + .8vw);
         
     }
     #linkedin {

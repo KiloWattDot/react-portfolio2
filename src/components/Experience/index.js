@@ -56,8 +56,10 @@ function Experience() {
         
 
         <section id="experience">
-            <h5>My Recent Work</h5>
-            <h2>Experience</h2>
+            <div className='expTitle_box'> 
+                {/* <h5 id='recentWork'>My Recent Work</h5> */}
+                <h2 id='expTitle'>Experience</h2>
+            </div>
 
 
             <div className='container exp_container'>
