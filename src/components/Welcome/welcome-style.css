@@ -1,0 +1,308 @@
+
+.WelcomeArea {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(51, 51, 51);
+    height: 500px;
+    padding-top: 100px;
+    flex-direction: column;
+    width: 100%;
+   
+    
+}
+
+#welcome {
+    justify-content: left !important;
+    align-items: center;
+
+}
+
+
+.col-xs-5 {
+    flex: 1;
+    transform: translate(200px, -96px);
+    display: flex;
+}
+
+
+.greeting {
+    width: 100%;
+    padding-top: 70px;
+    font-family: 'Work Sans', sans-serif;
+    text-align: left;
+    /* margin-left: 75px; */
+    /* margin-top: 90px; */
+}
+
+
+.greetingTitle {
+  transform: translate(-150px, 0px);
+  
+}
+  /* Text format for the "Hello, I am..." part */
+
+  #Hello {
+    margin-top: 20px;
+    font-size: 350%;
+
+    font-weight:normal;
+    text-align: left;
+    color: white;
+  }
+
+/* Text format for the "Dorothy..." part */
+  #Dorothy {
+    font-size: 800%;
+    margin-top: -20px;
+    color: #F5BF00;;
+    font-weight:normal;
+    text-align: left;
+    margin-left: -6px;
+  }
+  /* Text format for the "welcome to..." part */
+  #Welcome {
+    font-size: 230%;
+    margin-top: -13px;
+    color:rgb(173, 173, 173);
+    font-weight:normal;
+  
+    text-align: left;
+  }
+
+  /* aligning for my yellow headshot */
+
+
+
+  #hireBtn {
+    transform: translate(-150px, 0px);
+    height: 45px !important;
+    background-color: #F5BF00 !important;
+    align-items: center;
+    border-radius: 7px;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif !important;
+  }
+  
+  #resumeBtn {
+    transform: translate(-150px, 0px);
+    color: #F5BF00;
+    width: 25% !important;
+    height: 45px !important;
+    background-color: rgba(51, 51, 51) !important;
+    border-color: #F5BF00 !important;
+    align-items: center;
+    border-radius: 7px;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif !important;
+  }
+
+  .yellowBG {
+    /* justify-content: left; */
+    transform: translate(-80px, -0px);
+    width: 70%;
+    
+  }
+
+.profile {
+    width: 100%;
+    padding-top: 70px;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+
+@media all and (max-width: 1100px) {
+  
+  .col-xs-5 {
+   transform: translate(156px, -96px);
+  }
+  #Hello {
+   font-size: 300%;
+   }
+   #Dorothy {
+     font-size: 600%;
+   }
+   #Welcome {
+     font-size: 240%;
+   }
+ 
+   .yellowBG {
+     /* justify-content: left; */
+     transform: translate(-90px, -0px);
+     width: 70%;
+     
+   }
+   
+ 
+ }
+ @media all and (max-width: 1050px) {
+   
+       
+  .col-xs-5 {
+   transform: translate(200px, -80px);
+  }
+  #Hello {
+   font-size: 230%;
+   }
+   #Dorothy {
+     font-size: 430%;
+   }
+   #Welcome {
+     font-size: 200%;
+   }
+ 
+   #hireBtn {
+     transform: translate(-160px, 0px);
+     font-size: 15px;
+     height: 35px !important;
+   
+   }
+   
+   #resumeBtn {
+     transform: translate(-150px, 0px);
+     width: 20% !important;
+     height: 35px !important;
+     font-size: 15px;
+     margin: 5px;
+   }
+ 
+   .yellowBG {
+     /* justify-content: left; */
+     transform: translate(-90px, -0px);
+     width: 70%;
+     
+   }
+   
+ }
+ 
+ @media all and (max-width: 980px) {
+ 
+      
+   .col-xs-5 {
+     transform: translate(100px, -80px);
+    }
+    #Hello {
+     font-size: 220%;
+     }
+     #Dorothy {
+       font-size: 430%;
+     }
+     #Welcome {
+       font-size: 180%;
+     }
+   
+     #hireBtn {
+       transform: translate(-200px, 0px);
+       font-size: 15px;
+       height: 35px !important;
+     
+     }
+     
+     #resumeBtn {
+       transform: translate(-200px, 0px);
+       width: 30% !important;
+       height: 35px !important;
+       font-size: 15px;
+       margin: 5px;
+     }
+   
+     .yellowBG {
+       /* justify-content: left; */
+       transform: translate(-90px, -0px);
+       width: 80%;
+       
+     }
+     
+ }
+ 
+ @media all and (max-width: 1049px) {
+   .col-xs-5 {
+     transform: translate(210px, -80px);
+    }
+ 
+ }
+ @media all and (max-width: 850px) {
+   .col-xs-5 {
+     transform: translate(160px, -80px);
+    }
+ 
+ }
+ @media all and (max-width: 650px) {
+   .col-xs-5 {
+     transform: translate(180px, -80px);
+    }
+    #Hello {
+     font-size: 180%;
+     }
+     #Dorothy {
+       font-size: 400%;
+     }
+     #Welcome {
+       font-size: 140%;
+     }
+   
+     #hireBtn {
+       transform: translate(-150px, 0px);
+       font-size: 15px;
+       height: 35px !important;
+     
+     }
+     
+     #resumeBtn {
+       transform: translate(-150px, 0px);
+       width: 45% !important;
+       height: 35px !important;
+       font-size: 15px;
+       margin: 5px;
+     }
+   
+     .yellowBG {
+       /* justify-content: left; */
+       transform: translate(-130px, 15px);
+       width: 80%;
+       
+     }
+ 
+ }
+ @media all and (max-width: 500px) {
+
+   .col-xs-5 {
+     transform: translate(220px, -80px);
+    }
+    #Hello {
+     font-size: 130%;
+     }
+     #Dorothy {
+       font-size: 360%;
+     }
+     #Welcome {
+       font-size: 100%;
+     }
+   
+     #hireBtn {
+       transform: translate(-200px, 0px);
+       font-size: 12px;
+       height: 32px !important;
+     
+     }
+     
+     #resumeBtn {
+       transform: translate(-200px, 0px);
+       width: 35% !important;
+       height: 32px !important;
+       font-size: 12px;
+       margin: 2px;
+     }
+   
+     .yellowBG {
+       /* justify-content: left; */
+       transform: translate(-160px, 30px);
+       width: 60%;
+       
+     }
+ 
+ }

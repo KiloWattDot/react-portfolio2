@@ -1,0 +1,145 @@
+
+
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0pt;
+}
+
+
+.exp_container {
+    display: grid;
+  
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+}
+
+.exp_item { 
+    
+    background-color: rgb(255, 187, 0);
+    padding: 1.3rem;
+    border-radius: 2rem;
+    border: 3px solid transparent;
+    transition: var(--transition);
+    box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.335);
+}
+
+.exp_item:hover {
+    border-color: rgb(255, 196, 0);
+    background-color: rgb(255, 220, 123);
+    cursor: pointer;
+}
+
+img {
+    border-radius: 1.1rem;
+    width: 100%;
+    overflow: hidden;
+    margin: 10px 0px;
+}
+
+.projectTitle {
+  color: black !important;  
+  font-family: 'Poppins', sans-serif;
+}
+
+
+h5 {
+    text-align: center;
+    color:  #F5BF00;;
+    font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+    text-align: center;
+    color:  #F5BF00;;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+}
+
+
+
+p {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.exp_item h3 {
+    margin: 1.2rem 0 2rem;
+}
+
+.exp_item_links {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+
+}
+#repo {
+    color: white;
+    background-color: black;
+}
+
+.btn {
+    border: 1px solid white !important;
+}
+.btn-primary {
+    color: rgb(0, 0, 0) !important;
+    background-color: rgb(255, 255, 255) !important; 
+    border-color: black !important;
+}
+
+.tocents {
+    width: 50%;
+    margin: 0px 110px;
+}
+
+.space {
+    color: transparent;
+}
+
+@media screen and (max-width: 1024px) {
+    .exp_container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.8rem;
+    }
+    .tocents {
+        width: 60%;
+        margin: 0px 70px;
+    }
+    
+
+}
+@media screen and (max-width: 750px) {
+    .tocents {
+        width: 60%;
+        margin: 0px 50px;
+    }
+    
+
+}
+
+@media screen and (max-width: 600px) {
+    .exp_container {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 0.6rem;
+    }
+
+    .tocents {
+        width: 60%;
+        margin: 0px 70px;
+    }
+    
+
+}
+@media screen and (max-width: 480px) {
+ 
+
+    .exp_item { 
+        margin: 10px 50px;
+         width: 80%;
+    }
+
+}
+

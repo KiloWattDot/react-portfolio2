@@ -1,0 +1,45 @@
+
+.uniform {
+    padding: 0px 300px;
+    background-color: rgb(17, 17, 17);
+}
+
+#midBg {
+    background: 
+    url('AdobeStock_177974574.jpeg')
+    top center / 100% 100%
+    fixed
+    no-repeat;
+    
+    
+}
+
+
+@media screen and (max-width: 1650px ) {
+    
+.uniform {
+    padding: 0px 200px;
+  
+}
+
+    
+}
+
+@media screen and (max-width: 1350px ) {
+    
+    .uniform {
+        padding: 0px 100px;
+
+    }
+
+}
+
+@media screen and (max-width: 980px ) {
+    
+    .uniform {
+        padding: 0px 0px;
+
+    }
+
+    
+}
