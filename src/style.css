@@ -41,5 +41,25 @@
 
     }
 
+    #midBg {
+        background: 
+        url('AdobeStock_177974574.jpeg')
+        top center / 80% 50%
+        fixed
+        no-repeat;
+    }    
+    
+}
+@media screen and (max-width: 480px ) {
+    
+
+
+    #midBg {
+        background: 
+        url('AdobeStock_177974574.jpeg')
+        top center / 80% 30%
+        fixed
+        no-repeat;
+    }    
     
 }
