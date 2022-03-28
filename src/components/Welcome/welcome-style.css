@@ -345,3 +345,51 @@
      }
  
  }
+ @media all and (max-width: 480px) {
+   .WelcomeArea {
+     height: 200px;
+   }
+
+    .row {
+      display: flex !important;
+      flex-wrap: wrap !important; 
+      flex: 1;  
+    }
+
+   .col-xs-5 {
+     transform: translate(160px, -80px);
+          
+    }
+    #Hello {
+     font-size: 130%;
+     }
+     #Dorothy {
+       font-size: 360%;
+     }
+     #Welcome {
+       font-size: 100%;
+     }
+   
+     #hireBtn {
+       transform: translate(-160px, 0px);
+       font-size: 12px;
+       height: 32px !important;
+     
+     }
+     
+     #resumeBtn {
+       transform: translate(-160px, 0px);
+       width: 35% !important;
+       height: 32px !important;
+       font-size: 12px;
+       margin: 2px;
+     }
+   
+     .yellowBG {
+       /* justify-content: left; */
+       /* transform: translate(-160px, 30px);
+       width: 60%; */
+       
+     }
+ 
+ }
