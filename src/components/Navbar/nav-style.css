@@ -96,12 +96,7 @@
   
   
   
-    @media all and (max-width: 720px) {
-      .navbar {
-        flex-direction: column;
-  
-      }
-    }
+
     @media all and (max-width: 720px) {
       .navbar {
         flex-direction: column;

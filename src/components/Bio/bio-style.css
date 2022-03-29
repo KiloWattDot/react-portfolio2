@@ -106,7 +106,7 @@ h2 {
 
 .bio_item { 
     
-    height: 100%;
+    height: 110%;
     
 }
 
@@ -120,7 +120,7 @@ h2 {
   
     #AboutMeText {
 
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .bio_item { 

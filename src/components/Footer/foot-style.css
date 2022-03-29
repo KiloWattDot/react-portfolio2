@@ -181,6 +181,11 @@ h3 {
     #infoTitle {
         font-size: 100%;
     }
+    #info {
+        font-size: 65%;
+  
+       
+    }
     
     p {
         font-size: calc(1rem + .8vw);
