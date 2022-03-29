@@ -102,7 +102,7 @@
 
   .yellowBG {
     /* justify-content: left; */
-    transform: translate(5px, -0px);
+    transform: translate(-50px, 10px);
     width: 100%;
     
   }
