@@ -2,7 +2,7 @@ import React from 'react'
 import './exp-style.css'
 import GOFC from './images/Landing page search 1.png'
 import Tocents from './images/Logo - ToCents cropped.png'
-import Fake1 from './images/ecom.PNG'
+import MealTicket from './images/mealticket-site.PNG'
 import Fake2 from './images/health.PNG'
 
 
@@ -30,11 +30,11 @@ const data = [
     },
     {
         id: 3,
-        image: Fake1,
-        title: "Ecommerce Site",
-        description: "This is an Ecommerce website",
-        github: "#",
-        demo: "#",
+        image: MealTicket,
+        title: "Meal Ticket",
+        description: "This app is my take on a food ordering app similar to grubhub or Doordash using the latest javascript library React Js and Document Oriented database MongoDB",
+        github: "https://github.com/Marlowchu/Meal-Ticket",
+        demo: "https://meal-ticket-04-15-2022.herokuapp.com/",
         
 
     },

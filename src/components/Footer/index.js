@@ -100,7 +100,7 @@ function Footer() {
                         <a href="https://github.com/KiloWattDot">
                             <img src={github} id='github' alt="GitHub Icon" />
                         </a>
-                        <a href="https://www.twitter.com/DoroTheDev/" >
+                        <a href="https://www.twitter.com/KiloWattDot/" >
                             <img  src={twitter} id='twitter' alt="twitter Icon" />
                         </a>
 
