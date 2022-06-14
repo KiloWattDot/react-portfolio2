@@ -3,15 +3,14 @@ import './exp-style.css'
 import GOFC from './images/Landing page search 1.png'
 import Tocents from './images/Logo - ToCents cropped.png'
 import MealTicket from './images/mealticket-site.PNG'
-import Fake2 from './images/health.PNG'
-
+import WeatherApp from './images/weather.PNG'
 
 // See if you can replace this using props
 const data = [
     {
         id: 1,
         image: GOFC,
-        title: "Guardians Of The Code",
+        title: "Guardians Of The Code (API Fetching)",
         description: "This an application to assist casual movie-goers in preparing for optimal viewing of the next Marvel film with friends.",
         github: "https://github.com/nsoroma/Guardians-of-the-Code-Galaxy ",
         demo: "https://nsoroma.github.io/Guardians-of-the-Code-Galaxy/ ",
@@ -21,7 +20,7 @@ const data = [
     {
         id: 2,
         image: Tocents,
-        title: "ToCents",
+        title: "ToCents (Social Media App)",
         description: "This app is a new way to connect with others who have a specific niche of interest & opinions.",
         github: "https://github.com/Marlowchu/Takes",
         demo: "https://to-cents.herokuapp.com/ ",
@@ -31,7 +30,7 @@ const data = [
     {
         id: 3,
         image: MealTicket,
-        title: "Meal Ticket",
+        title: "Meal Ticket (Food Delivery service App)",
         description: "This app is my take on a food ordering app similar to grubhub or Doordash using the latest javascript library React Js and Document Oriented database MongoDB",
         github: "https://github.com/Marlowchu/Meal-Ticket",
         demo: "https://meal-ticket-04-15-2022.herokuapp.com/",
@@ -40,11 +39,11 @@ const data = [
     },
     {
         id: 4,
-        image: Fake2,
-        title: "Online Healthcare",
-        description: "This is an app for online healthcare",
-        github: "#",
-        demo: " #",
+        image: WeatherApp,
+        title: "Weather Dashboard App (API Fetching)",
+        description: "This is an application that you can use to find the weather anywhere around the world. In this application, the API used to gather the data comes from OpenWeatherMap.org. ",
+        github: "https://github.com/KiloWattDot/WeatherApp",
+        demo: "https://kilowattdot.github.io/WeatherApp/#",
     
 
     },
