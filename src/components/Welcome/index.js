@@ -1,7 +1,7 @@
 import React from 'react';
 import './welcome-style.css';
 import yellowbg from './images/Me(yellowbg).png'
-import resume from './images/Dorothy Gilchrist - Apex Resume.docx'
+
 
 
 
@@ -25,10 +25,10 @@ function Welcome() {
                             {/* Add buttons w/ links */}
   
                             <a id='hireBtn' className='btn' href='mailto:Doro.Gilchrist@gmail.com'>
-                                Contact Me!
+                                Contact Me
                             </a>
                             
-                            <a className='btn' id="resumeBtn" href={resume}>
+                            <a className='btn' id="resumeBtn" href='https://docs.google.com/document/d/18Mqbxa-NDzz5Y19YRIhOSOtPwuunCeDj/edit'  target="_blank">
                                 Resume
                             </a>
 

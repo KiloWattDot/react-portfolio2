@@ -3,7 +3,7 @@ import './exp-style.css'
 import GOFC from './images/Landing page search 1.png'
 import Tocents from './images/Logo - ToCents cropped.png'
 import MealTicket from './images/mealticket-site.PNG'
-import WeatherApp from './images/weather.PNG'
+import WeatherApp from './images/weather.png'
 
 // See if you can replace this using props
 const data = [
